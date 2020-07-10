@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("/src/img/laliga-bg.jpg");
+}
+
+
+
+.sidenav li a {
+    color: white;
+}
+
+.main h2 {
+    color: #e69a18;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 48px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.satu {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-left: 500px;
+    margin-top: 80px
+}
+
+.dua {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-left: 650px;
+    margin-bottom: 50px
+}
+
+@media only screen and (max-width: 992px) {
+
+    .main h2 {
+        color: #f0a729;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 24px;
+        letter-spacing: 3px;
+        margin-top: 140px;
+        margin-left: 60px;
+    }
+
+    .satu {
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-left: 100px;
+        margin-top: 50px
+    }
+
+    .dua {
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-left: 130px;
+    }
+
+    .spasi {
+        margin-top: 50px;
+    }
+
+}
+
+div.spasi li>a {
+    font-weight: bolder;
+    color: #f0a729;
+    font-size: 20px;
+}
+
+div.spasi li>a:hover {
+    color: white;
+}
+
+.carousel {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+h2.header {
+    color: #f0a729;
+    font-weight: bold;
+}
+
+.row h2 {
+    color: #e69a18;
+    font-size: 32px;
+}
+
+.row p {
+    font-size: 18px;
+}
+
+.carousel h2 {
+    text-transform: uppercase !important;
+    color: #fa9e00;
+    font-weight: bold !important;
+    font-size: 36px !important;
+}
+
+.nav-wrapper nav {
+    position: fixed;
+}
+
+.back-top img {
+    margin-top: 5px;
+}
+
+div h3 {
+    font-weight: bold;
+    color: #e69a18;
+}
+
+div td {
+    font-weight: bold;
+}
+
+div h4 {
+    font-weight: bold;
+    color: #e69a18;
+}

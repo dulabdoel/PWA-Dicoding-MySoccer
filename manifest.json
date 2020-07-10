@@ -1,0 +1,21 @@
+{
+    "name": "Submission2_PWA",
+    "short_name": "My Soccer",
+    "description": "Submission2PWA_Dicoding",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#183344f6",
+    "theme_color": "#183344f6",
+    "icons": [{
+            "src": "/src/img/icon-laliga512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/src/img/icon-laliga-1-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "gcm_sender_id": "833311911761"
+}
